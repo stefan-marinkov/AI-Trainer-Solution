@@ -1,214 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>AI Chat Demo – Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #0b0f1a;
-            margin: 0;
-            padding: 0;
-            color: #e6e6e6;
-        }
-
-        /* NAVIGATION */
-        nav {
-            width: 100%;
-            background: #141a2a;
-            padding: 15px 25px;
-            display: flex;
-            justify-content: flex-end;
-            gap: 30px;
-            border-bottom: 2px solid #1f2d44;
-        }
-        nav a {
-            color: #dbe2ff;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 15px;
-            transition: 0.2s;
-        }
-        nav a:hover {
-            color: #6ca2ff;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 900px;
-            margin: 40px auto;
-            background: #141a2a;
-            padding: 35px;
-            border-radius: 12px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.5);
-            border: 1px solid #1f2d44;
-        }
-
-        h1, h2 {
-            margin-bottom: 10px;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        /* CHAT WINDOW */
-        #chatWindow {
-            width: 100%;
-            height: 300px;
-            background: #0f1625;
-            border-radius: 8px;
-            padding: 15px;
-            overflow-y: auto;
-            margin-bottom: 15px;
-            border: 1px solid #1f2d44;
-        }
-
-        .chat-message {
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            width: fit-content;
-            max-width: 70%;
-        }
-
-        .chat-message.user {
-            background: #1c335c;
-            margin-left: auto;
-            text-align: right;
-            color: #cfe3ff;
-        }
-
-        .chat-message.ai {
-            background: #16301c;
-            color: #d8ffd8;
-        }
-
-        /* INPUT + DROPDOWN */
-        .input-wrapper {
-            position: relative;
-            margin-bottom: 10px;
-        }
-
-        #userInput {
-            width: 100%;
-            padding: 14px;
-            font-size: 16px;
-            border-radius: 8px;
-            border: 1px solid #1f2d44;
-            background: #0f1625;
-            color: #e6e6e6;
-        }
-
-        #userInput:focus {
-            outline: none;
-            border-color: #6ca2ff;
-        }
-
-        #suggestions {
-            display: none;
-            position: absolute;
-            top: 48px;
-            width: 100%;
-            background: #0f1625;
-            border: 1px solid #1f2d44;
-            border-radius: 6px;
-            z-index: 50;
-            max-height: 220px;
-            overflow-y: auto;
-        }
-
-        .suggestion-item {
-            padding: 12px;
-            cursor: pointer;
-        }
-        .suggestion-item:hover {
-            background: #1c2a42;
-        }
-
-        /* BUTTONS */
-        #sendBtn, #resetBtn {
-            padding: 12px 18px;
-            font-size: 16px;
-            margin-top: 5px;
-            margin-right: 10px;
-            cursor: pointer;
-            background: #1c335c;
-            border: 1px solid #2b4a7d;
-            color: #cfe3ff;
-            border-radius: 8px;
-            transition: 0.2s;
-        }
-
-        #sendBtn:hover, #resetBtn:hover {
-            background: #2b4a7d;
-        }
-
-        /* FAQ */
-        .faq-section {
-            margin-top: 50px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-
-    <!-- NAVIGATION -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="#chat">AI Chat Demo</a>
-        <a href="#faq">FAQ Example</a>
+    <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="#chat" class="nav-link">AI Chat Demo</a>
+        <a href="#faq" class="nav-link">FAQ Example</a>
     </nav>
 
     <div class="container">
-
         <h1>AI Trainer Portfolio – AI Assistant Demo</h1>
-        <p>
-            This project showcases my expertise in training AI assistants to improve business 
-            efficiency across industries. The AI assistant reduces the need for extra support agents, 
-            speeds up response times, increases client satisfaction, and shortens issue resolution cycles.
+        <p class="lead">
+            This project showcases my expertise in training AI assistants to improve business
+            efficiency across industries. The assistant reduces the need for extra agents,
+            speeds up response times, and increases client satisfaction.
         </p>
 
         <h2>Try Chat</h2>
-        <p>Click on the input below to see example questions or type your own question to test the AI Assistant in real-time.</p>
+        <p class="muted">
+            Click the input to see example questions or type your own to test the assistant.
+        </p>
 
-        <!-- CHAT -->
         <div id="chat"></div>
-        <div id="chatWindow"></div>
+        <div id="chatWindow" class="chat-window"></div>
 
-        <!-- INPUT FIELD + DROPDOWN -->
-        <div class="input-wrapper">
-            <input id="userInput" type="text" placeholder="Type your question..." autocomplete="off">
-            <div id="suggestions"></div>
+        <!-- typing indicator (same id your JS will use) -->
+        <div id="typingIndicator" class="typing hidden">
+            <span class="dot d1"></span>
+            <span class="dot d2"></span>
+            <span class="dot d3"></span>
+            AI is typing…
         </div>
 
-        <!-- BUTTONS -->
-        <button id="sendBtn">Send</button>
-        <button id="resetBtn">Reset</button>
+        <div class="input-wrapper">
+            <input id="userInput" type="text" placeholder="Type your question..." autocomplete="off" />
+            <div id="suggestions" class="suggestions"></div>
+        </div>
 
-        <!-- FAQ SECTION -->
+        <div class="actions">
+            <button id="sendBtn" class="btn primary">Send</button>
+            <button id="resetBtn" class="btn ghost">Reset</button>
+        </div>
+
         <div id="faq" class="faq-section">
             <h2>FAQ Examples</h2>
-            <p>Explore AI Responses: This section allows you to see how the AI Assistant responds to example customer support questions.</p>
+            <p class="muted">
+                Example customer-support questions and how the assistant responds.
+            </p>
 
-            <ul>
-                <li><strong>Password reset:</strong> Reset your password via the Sign In page…</li>
-                <li><strong>Deposit / Withdrawal:</strong> Check your account balance…</li>
-                <li><strong>Change date of birth:</strong> Update your DOB under My Profile…</li>
+            <ul class="faq-list">
+                <li>
+                    <strong>Password reset:</strong>
+                    Reset your password via the Sign In page or Settings → Account → Reset Password.
+                </li>
+                <li>
+                    <strong>Deposit / Withdrawal:</strong>
+                    Check your account balance and transaction history in the Wallet section.
+                </li>
+                <li>
+                    <strong>Change date of birth:</strong>
+                    Update your DOB under My Profile → Personal Info.
+                </li>
             </ul>
         </div>
-
     </div>
 
-    <script src="script.js"></script>
+    <footer class="footer">
+        Made by Marko Davidovic • © <span id="year"></span>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
+
 </html>

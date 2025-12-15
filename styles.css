@@ -119,6 +119,7 @@ body {
 .container {
   width: 92%;
   max-width: 900px;
+  min-height: 70vh;
   margin: 18px auto 40px;
   background: #111522;
   padding: 20px;

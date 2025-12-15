@@ -86,9 +86,9 @@ body {
   }
 
   .nav-logo {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.05;
-    max-width: 120px;
+    max-width: 140px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

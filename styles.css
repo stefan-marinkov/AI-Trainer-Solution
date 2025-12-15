@@ -46,8 +46,23 @@ body {
   letter-spacing: 0.2px;
 }
 
-.nav-link:hover {
+.nav-logo {
+  margin-right: auto;
   color: #e6e9ef;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+.nav-logo:hover {
+  filter: brightness(1.05);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
 }
 
 .nav-link.active {

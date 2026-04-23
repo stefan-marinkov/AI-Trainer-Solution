@@ -1,209 +1,419 @@
 [
-    {
-        "question": "How do I reset my password?",
-        "keywords": ["password", "reset", "forgot password", "change password", "recover account"],
-        "answer": "To reset your password, go to the Sign In page, select 'Existing User', click 'Password Reset', enter your registered email, and follow the instructions sent to your inbox."
-    },
-    {
-        "question": "I forgot my login password, what should I do?",
-        "keywords": ["forgot login", "cannot sign in", "lost password", "reset login"],
-        "answer": "You can recover your login password by selecting 'Password Reset' on the Sign In page and following the instructions to receive your reset link."
-    },
-    {
-        "question": "How can I change my account password?",
-        "keywords": ["change password", "update password", "modify password"],
-        "answer": "You can change your password through the 'Settings' section of your profile or by using the password reset option if you can't sign in."
-    },
-
-    {
-        "question": "How long does identity verification take?",
-        "keywords": ["verification", "kyc", "confirm identity", "id check", "upload documents"],
-        "answer": "Identity verification usually takes between a few minutes and several hours. In rare cases, it may take up to 24 hours depending on document quality and queue volume."
-    },
-    {
-        "question": "What documents do I need for account verification?",
-        "keywords": ["documents", "kyc documents", "id", "passport", "drivers license"],
-        "answer": "You can use a valid passport, national ID card, or driver’s license. Make sure the document is clear, not expired, and fully visible."
-    },
-    {
-        "question": "My verification was rejected. What should I do?",
-        "keywords": ["kyc failed", "verification rejected", "cannot verify", "document rejected"],
-        "answer": "Please upload a clear, non-cropped image of your document with all details visible. Ensure there is no glare or blur. If the issue continues, contact support."
-    },
-
-    {
-        "question": "How do I deposit money into my account?",
-        "keywords": ["deposit", "add funds", "top up", "payment", "funds"],
-        "answer": "Go to the Deposit section in your account, choose a payment method, enter the amount, and follow the on-screen steps to complete the transaction."
-    },
-    {
-        "question": "My deposit is not showing in my balance.",
-        "keywords": ["deposit missing", "deposit delayed", "funds not received"],
-        "answer": "Deposits typically process instantly, but some methods may take a few minutes. If the funds do not appear after 30 minutes, contact support with the transaction ID."
-    },
-    {
-        "question": "Which payment methods are supported for deposits?",
-        "keywords": ["payment methods", "deposit options", "credit card", "bank transfer", "ewallet"],
-        "answer": "We support credit/debit cards, bank transfers, and major e-wallets. Available options may vary by region."
-    },
-
-    {
-        "question": "How do I withdraw funds?",
-        "keywords": ["withdraw", "cashout", "payout", "withdraw money"],
-        "answer": "To withdraw funds, go to the Withdrawal page, choose your preferred method, enter the amount, and confirm the request."
-    },
-    {
-        "question": "How long does a withdrawal take?",
-        "keywords": ["withdrawal time", "payout time", "processing withdrawal"],
-        "answer": "Withdrawals typically take 1–3 business days depending on the method used and account verification status."
-    },
-    {
-        "question": "Why was my withdrawal declined?",
-        "keywords": ["withdrawal declined", "cannot withdraw", "payout failed"],
-        "answer": "Withdrawals may be declined if your account is not fully verified, if insufficient funds are available, or if the payment method cannot receive funds."
-    },
-
-    {
-        "question": "How can I change my registered email address?",
-        "keywords": ["change email", "update email", "edit email", "new email"],
-        "answer": "You can update your email through the 'My Profile' settings. For security, a confirmation code will be sent to your new email."
-    },
-    {
-        "question": "How do I update my phone number?",
-        "keywords": ["change phone", "update phone", "edit phone number"],
-        "answer": "You can update your phone number in the 'My Profile' section. A verification SMS may be required."
-    },
-    {
-        "question": "Can I change my date of birth?",
-        "keywords": ["change dob", "edit date of birth", "wrong birthday"],
-        "answer": "To change your date of birth, contact support and provide a valid ID showing the correct information."
-    },
-
-    {
-        "question": "How do I activate a bonus?",
-        "keywords": ["bonus", "promotions", "activate bonus", "claim bonus"],
-        "answer": "You can activate an available bonus from the Promotions page. Terms and wagering requirements may apply."
-    },
-    {
-        "question": "Why did my bonus disappear?",
-        "keywords": ["bonus missing", "lost bonus", "bonus removed"],
-        "answer": "Bonuses may expire or be removed if the wagering requirements were not met within the time limit."
-    },
-    {
-        "question": "Where can I find current promotions?",
-        "keywords": ["promotions", "offers", "bonuses", "deals"],
-        "answer": "All active promotions are listed on the Promotions page. Check regularly for new offers."
-    },
-
-    {
-        "question": "Why can't I sign in to my account?",
-        "keywords": ["cannot sign in", "login failed", "can't login", "sign in problem"],
-        "answer": "Please ensure your email and password are correct. If the problem persists, try resetting your password or clearing browser cache."
-    },
-    {
-        "question": "The system logged me out automatically.",
-        "keywords": ["logout", "logged out", "session expired"],
-        "answer": "You may have been logged out due to inactivity or for security reasons. Please sign in again."
-    },
-    {
-        "question": "My account is locked. What should I do?",
-        "keywords": ["account locked", "locked out", "blocked account"],
-        "answer": "Accounts may lock after multiple failed login attempts. Wait a few minutes and try again, or reset your password."
-    },
-
-    {
-        "question": "Why is my transaction pending?",
-        "keywords": ["pending", "pending transaction", "processing"],
-        "answer": "Transactions may remain pending during manual security checks or banking delays. They typically resolve automatically within a short time."
-    },
-    {
-        "question": "What is the minimum deposit amount?",
-        "keywords": ["minimum deposit", "deposit limit", "min deposit"],
-        "answer": "The minimum deposit amount depends on your region and payment method. Most methods support a low minimum threshold."
-    },
-    {
-        "question": "What is the minimum withdrawal amount?",
-        "keywords": ["minimum withdrawal", "withdrawal limit", "min withdrawal"],
-        "answer": "The minimum withdrawal amount varies depending on the selected payout method."
-    },
-
-    {
-        "question": "How do I contact support?",
-        "keywords": ["support", "help", "contact support", "customer service"],
-        "answer": "You can reach support via live chat or email anytime. Our team is available 24/7 to assist you."
-    },
-    {
-        "question": "Do you offer live chat support?",
-        "keywords": ["live chat", "chat support", "customer chat"],
-        "answer": "Yes, live chat is available 24/7 for all users."
-    },
-    {
-        "question": "Can I contact support by email?",
-        "keywords": ["email support", "customer support email"],
-        "answer": "Yes, you can contact us by email. Response times may vary depending on volume."
-    },
-
-    {
-        "question": "Why was my payment declined?",
-        "keywords": ["payment declined", "card declined", "deposit failed"],
-        "answer": "Payments can be declined by your bank or due to insufficient funds. Please check with your bank or try another method."
-    },
-    {
-        "question": "Why is my card not accepted?",
-        "keywords": ["card not accepted", "card error", "cannot use card"],
-        "answer": "Your card issuer may have restrictions on international or online transactions. Contact your bank for assistance."
-    },
-    {
-        "question": "Can I add multiple payment methods?",
-        "keywords": ["multiple cards", "add payment method"],
-        "answer": "Yes, you can add multiple cards or e-wallets to your account for deposits and withdrawals."
-    },
-
-    {
-        "question": "Is my personal information secure?",
-        "keywords": ["security", "privacy", "data protection", "safe"],
-        "answer": "All personal data is encrypted and protected under strict security protocols. We follow industry-standard compliance guidelines."
-    },
-    {
-        "question": "Is my payment information safe?",
-        "keywords": ["payment security", "card safety", "secure payment"],
-        "answer": "Yes, all transactions are processed through secure, encrypted channels and compliant providers."
-    },
-    {
-        "question": "How do I enable two-factor authentication?",
-        "keywords": ["2fa", "two factor", "authentication", "security"],
-        "answer": "You can enable 2FA in your account security settings. Follow the steps to link your authentication app."
-    },
-
-    {
-        "question": "How can I close my account?",
-        "keywords": ["close account", "delete account", "remove account"],
-        "answer": "If you want to close your account, please contact support. They will guide you through the required steps."
-    },
-    {
-        "question": "Can I reopen my closed account?",
-        "keywords": ["reopen account", "restore account"],
-        "answer": "Closed accounts may be reopened upon request after verification. Contact support for assistance."
-    },
-    {
-        "question": "Why was my account restricted?",
-        "keywords": ["account restricted", "account limitation", "restricted profile"],
-        "answer": "Restrictions may apply due to compliance checks, missing verification, or suspicious activity. Support can provide more details."
-    },
-
-    {
-        "question": "Why is my app not working?",
-        "keywords": ["app not working", "app issue", "mobile app"],
-        "answer": "Try updating the app, restarting your device, or reinstalling it. If the issue continues, contact support."
-    },
-    {
-        "question": "The website is not loading for me.",
-        "keywords": ["website not loading", "site down", "cannot access website"],
-        "answer": "Please clear cache, try another browser, or check your internet connection. If the issue persists, support can help."
-    },
-    {
-        "question": "Why am I experiencing lag or slow loading?",
-        "keywords": ["slow", "lag", "loading slow"],
-        "answer": "Slow loading may be caused by network issues or high server traffic. Try refreshing or switching networks."
-    }
+  {
+    "question": "How do I reset my password?",
+    "keywords": [
+      "password",
+      "reset",
+      "forgot password",
+      "change password",
+      "recover account"
+    ],
+    "answer": "To reset your password, go to the Sign In page and select 'Existing User'. Click on 'Password Reset', enter the email address registered to your account, and submit the request. You will receive an automated email containing a secure reset link. Open the link, create a new password that meets the security requirements, and confirm the change. If you do not receive the email within a few minutes, please check your spam or junk folder before contacting support."
+  },
+  {
+    "question": "I forgot my login password and cannot access my account.",
+    "keywords": [
+      "forgot login",
+      "cannot sign in",
+      "lost password",
+      "login issue"
+    ],
+    "answer": "If you cannot access your account due to a forgotten password, please use the 'Password Reset' option on the Sign In page. Enter your registered email address and follow the instructions sent to you. Make sure the new password is unique and not previously used. If the reset email does not arrive, ensure that your email inbox has available storage and check spam folders."
+  },
+  {
+    "question": "How can I change my password while logged in?",
+    "keywords": [
+      "change password",
+      "update password",
+      "security settings"
+    ],
+    "answer": "While logged in, navigate to 'My Profile' → 'Security Settings'. Select 'Change Password', enter your current password, then create and confirm a new password. For security reasons, we recommend using a strong password with a mix of letters, numbers, and symbols. Once saved, the new password becomes active immediately."
+  },
+  {
+    "question": "How long does account verification take?",
+    "keywords": [
+      "verification",
+      "kyc",
+      "identity check",
+      "document review"
+    ],
+    "answer": "Account verification is typically completed within minutes, but in some cases it may take up to 24 hours depending on document quality and verification volume. Ensure that all uploaded documents are clear, valid, not expired, and fully visible. You will be notified automatically once the verification process is complete."
+  },
+  {
+    "question": "What documents are required for identity verification?",
+    "keywords": [
+      "kyc documents",
+      "passport",
+      "id card",
+      "driver license"
+    ],
+    "answer": "To verify your account, you must upload one valid government-issued document such as a passport, national ID card, or driver's license. The document must be clear, uncropped, and readable on all sides. In some regions, a proof of address may also be required."
+  },
+  {
+    "question": "My verification was rejected. What should I do next?",
+    "keywords": [
+      "verification rejected",
+      "kyc failed",
+      "document issue"
+    ],
+    "answer": "If your verification was rejected, please review the rejection reason displayed in your account. Re-upload a new document ensuring it is not blurred, cropped, or expired. Avoid glare and ensure all details are visible. If the issue persists after resubmission, contact support for manual review."
+  },
+  {
+    "question": "How do I make a deposit?",
+    "keywords": [
+      "deposit",
+      "add funds",
+      "top up",
+      "payment"
+    ],
+    "answer": "To deposit funds, log into your account and go to the 'Deposit' section. Select your preferred payment method, enter the amount, and follow the on-screen instructions to complete the transaction. Deposits are usually processed instantly, depending on the selected method."
+  },
+  {
+    "question": "Why is my deposit not showing in my balance?",
+    "keywords": [
+      "deposit missing",
+      "deposit pending",
+      "funds not received"
+    ],
+    "answer": "Most deposits are credited instantly, however certain payment methods may experience processing delays. Please allow up to 30 minutes. If the funds still do not appear, check your transaction status and contact support with the transaction ID for further investigation."
+  },
+  {
+    "question": "What payment methods can I use?",
+    "keywords": [
+      "payment methods",
+      "deposit options",
+      "withdrawal options"
+    ],
+    "answer": "Available payment methods include credit and debit cards, bank transfers, e-wallets, and cryptocurrencies. The exact options depend on your country and account status. You can view all available methods directly in the Deposit and Withdrawal sections."
+  },
+  {
+    "question": "How do withdrawals work?",
+    "keywords": [
+      "withdraw",
+      "cashout",
+      "payout"
+    ],
+    "answer": "To withdraw funds, go to the 'Withdrawal' section of your account, choose an available method, enter the amount, and submit the request. Withdrawals are processed after verification checks and may take between 1–3 business days depending on the method."
+  },
+  {
+    "question": "Why was my withdrawal declined?",
+    "keywords": [
+      "withdrawal declined",
+      "payout failed",
+      "withdrawal issue"
+    ],
+    "answer": "Withdrawals may be declined due to incomplete verification, insufficient balance, wagering requirements not met, or payment method restrictions. Please review your account notifications or contact support for a detailed explanation."
+  },
+  {
+    "question": "How long do withdrawals take?",
+    "keywords": [
+      "withdrawal time",
+      "payout duration"
+    ],
+    "answer": "Withdrawal processing times vary by method. E-wallets are usually processed within 24 hours, while cards and bank transfers may take 1–3 business days after approval."
+  },
+  {
+    "question": "How do bonuses work?",
+    "keywords": [
+      "bonus",
+      "promotion",
+      "wagering"
+    ],
+    "answer": "Bonuses are available through the Promotions page and may include wagering requirements. Before activating a bonus, review the terms carefully, including wagering conditions, eligible games, and expiration dates. Bonuses are automatically applied once activated."
+  },
+  {
+    "question": "Why was my bonus removed?",
+    "keywords": [
+      "bonus removed",
+      "bonus expired",
+      "lost bonus"
+    ],
+    "answer": "Bonuses may be removed if wagering requirements are not met within the specified timeframe, if bonus terms are violated, or if the bonus expires. You can review bonus status and conditions in the Promotions section."
+  },
+  {
+    "question": "Can I change my date of birth?",
+    "keywords": [
+      "date of birth",
+      "dob change",
+      "personal details"
+    ],
+    "answer": "For security and compliance reasons, date of birth changes require manual review. Please contact support and provide a valid ID document showing the correct information. Once verified, the update will be applied."
+  },
+  {
+    "question": "How do I update my email address?",
+    "keywords": [
+      "change email",
+      "update email"
+    ],
+    "answer": "You can update your email address from 'My Profile' → 'Account Settings'. A verification code will be sent to the new email address to confirm the change for security purposes."
+  },
+  {
+    "question": "Is cryptocurrency supported?",
+    "keywords": [
+      "crypto",
+      "bitcoin",
+      "ethereum",
+      "crypto payments"
+    ],
+    "answer": "Yes, we support cryptocurrency deposits and withdrawals, including major assets such as Bitcoin and Ethereum. Processing times depend on blockchain confirmations. Always ensure you use the correct wallet address to avoid loss of funds."
+  },
+  {
+    "question": "Why is my transaction pending?",
+    "keywords": [
+      "pending transaction",
+      "processing"
+    ],
+    "answer": "Transactions may remain pending during additional security checks or blockchain confirmations. Most pending transactions resolve automatically. If the status does not update after a reasonable time, please contact support."
+  },
+  {
+    "question": "How do I contact customer support?",
+    "keywords": [
+      "support",
+      "contact",
+      "help"
+    ],
+    "answer": "You can contact customer support via live chat or email, available 24/7. If your issue requires further review, our team will escalate it to a specialist to ensure a complete resolution."
+  },
+  {
+    "question": "What should I do if my issue is not listed?",
+    "keywords": [
+      "unknown issue",
+      "not listed",
+      "custom issue"
+    ],
+    "answer": "If your question is not covered here, please try rephrasing it using different keywords or consult our Help Center and FAQ section. If you still cannot find an answer, let me know and I will gladly escalate your request to a live support agent for personalized assistance."
+  },
+  {
+    "question": "How do I verify my account after registration?",
+    "keywords": [
+      "verify account",
+      "kyc",
+      "account verification",
+      "identity check"
+    ],
+    "answer": "To verify your account, log in and navigate to the Verification section. Upload a valid government-issued ID such as a passport, national ID card, or driver’s license. Ensure all details are clear and readable. Once submitted, the verification process usually takes a few minutes but may take up to 24 hours depending on review volume."
+  },
+  {
+    "question": "Why do I need to complete KYC verification?",
+    "keywords": [
+      "kyc",
+      "verification required",
+      "identity verification"
+    ],
+    "answer": "KYC verification is required to ensure account security, prevent fraud, and comply with legal and regulatory requirements. It also protects your funds and allows full access to deposits and withdrawals."
+  },
+  {
+    "question": "Can I use multiple payment methods on one account?",
+    "keywords": [
+      "multiple payment methods",
+      "cards",
+      "wallets"
+    ],
+    "answer": "Yes, you can add multiple payment methods including cards, bank accounts, e-wallets, and cryptocurrencies. However, withdrawals may need to be processed using the same method used for deposits due to security regulations."
+  },
+  {
+    "question": "Why is my card payment failing?",
+    "keywords": [
+      "card declined",
+      "payment failed",
+      "credit card issue"
+    ],
+    "answer": "Card payments may fail due to insufficient funds, bank restrictions, or international transaction limits. We recommend contacting your bank or trying an alternative payment method such as e-wallet or crypto."
+  },
+  {
+    "question": "How do I check my transaction history?",
+    "keywords": [
+      "transaction history",
+      "payments",
+      "history"
+    ],
+    "answer": "You can view your full transaction history in the 'Account' or 'Wallet' section. This includes deposits, withdrawals, bonuses, and adjustments with timestamps and status details."
+  },
+  {
+    "question": "What should I do if my withdrawal is delayed?",
+    "keywords": [
+      "withdrawal delay",
+      "late payout"
+    ],
+    "answer": "If your withdrawal is delayed, first check the processing status in your account. Delays can occur due to security checks or banking processing times. If it exceeds the expected timeframe, contact support with your transaction ID."
+  },
+  {
+    "question": "Can I cancel a withdrawal request?",
+    "keywords": [
+      "cancel withdrawal",
+      "withdrawal cancel"
+    ],
+    "answer": "In most cases, withdrawal requests can only be canceled if they are still in pending status. Once approved or processed, cancellation is no longer possible."
+  },
+  {
+    "question": "How do wagering requirements work for bonuses?",
+    "keywords": [
+      "wagering",
+      "bonus terms",
+      "playthrough"
+    ],
+    "answer": "Wagering requirements define how many times you must play through a bonus amount before withdrawal is allowed. For example, a 10x wagering requirement means you must place bets totaling 10 times the bonus value before it becomes withdrawable."
+  },
+  {
+    "question": "Why can’t I withdraw my bonus winnings?",
+    "keywords": [
+      "bonus withdrawal",
+      "winnings blocked"
+    ],
+    "answer": "Bonus winnings are subject to wagering requirements. You must complete the required playthrough conditions before funds can be withdrawn. Full details are available in the Promotions section."
+  },
+  {
+    "question": "What happens if I don’t complete KYC?",
+    "keywords": [
+      "kyc not completed",
+      "no verification"
+    ],
+    "answer": "If KYC is not completed, your account may have limited functionality, including restrictions on withdrawals or deposits. Completing verification unlocks full account access."
+  },
+  {
+    "question": "Is there a minimum age requirement?",
+    "keywords": [
+      "age limit",
+      "minimum age",
+      "18+"
+    ],
+    "answer": "Yes, users must meet the legal age requirement of their jurisdiction, typically 18+ or 21+ depending on local regulations. Accounts may be suspended if age verification fails."
+  },
+  {
+    "question": "How do I secure my account?",
+    "keywords": [
+      "security",
+      "account safety",
+      "2fa"
+    ],
+    "answer": "To secure your account, enable two-factor authentication, use a strong password, and avoid sharing login credentials. Regularly monitor account activity for any suspicious behavior."
+  },
+  {
+    "question": "What is two-factor authentication (2FA)?",
+    "keywords": [
+      "2fa",
+      "security",
+      "authentication"
+    ],
+    "answer": "Two-factor authentication adds an extra layer of security by requiring a verification code from your mobile device or authentication app in addition to your password during login."
+  },
+  {
+    "question": "Why was my account temporarily suspended?",
+    "keywords": [
+      "suspended",
+      "account blocked",
+      "restriction"
+    ],
+    "answer": "Accounts may be temporarily suspended due to security checks, suspicious activity, or incomplete verification. Contact support to resolve the issue and restore access."
+  },
+  {
+    "question": "Can I change my registered personal details?",
+    "keywords": [
+      "edit profile",
+      "change details",
+      "personal info"
+    ],
+    "answer": "Some personal details can be updated in your profile settings. However, sensitive information such as date of birth or legal name may require identity verification through support."
+  },
+  {
+    "question": "Why is my bonus not showing?",
+    "keywords": [
+      "bonus missing",
+      "promotion not applied"
+    ],
+    "answer": "If your bonus is not visible, ensure that you meet the promotion conditions and that it has been activated correctly. Some bonuses require manual activation in the Promotions section."
+  },
+  {
+    "question": "What should I do if I entered wrong payment details?",
+    "keywords": [
+      "wrong payment",
+      "incorrect details"
+    ],
+    "answer": "If incorrect payment details were entered, contact support immediately with transaction information. In some cases, transactions cannot be reversed once processed."
+  },
+  {
+    "question": "How do I know if my deposit was successful?",
+    "keywords": [
+      "deposit success",
+      "payment confirmation"
+    ],
+    "answer": "A successful deposit will appear in your account balance and transaction history. You will also receive a confirmation notification. If not visible, check pending transactions."
+  },
+  {
+    "question": "Can I use VPN to access my account?",
+    "keywords": [
+      "vpn",
+      "access restriction",
+      "location"
+    ],
+    "answer": "Using VPN may be restricted due to security and compliance policies. It is recommended to access your account from your verified location to avoid login issues."
+  },
+  {
+    "question": "Why am I unable to place a withdrawal request?",
+    "keywords": [
+      "withdrawal error",
+      "cannot withdraw"
+    ],
+    "answer": "Withdrawal restrictions may occur if verification is incomplete, funds are not available, or wagering requirements are not met. Check your account status or contact support."
+  },
+  {
+    "question": "What currencies are supported?",
+    "keywords": [
+      "currency",
+      "fiat",
+      "crypto"
+    ],
+    "answer": "We support multiple fiat currencies depending on your region, as well as major cryptocurrencies like BTC and ETH. Available options are displayed in your account settings."
+  },
+  {
+    "question": "How do I update my security settings?",
+    "keywords": [
+      "security settings",
+      "password settings"
+    ],
+    "answer": "You can update security settings from your account dashboard, including password changes and 2FA activation. Always ensure your credentials are up to date for maximum protection."
+  },
+  {
+    "question": "What should I do if I suspect fraud on my account?",
+    "keywords": [
+      "fraud",
+      "suspicious activity",
+      "security breach"
+    ],
+    "answer": "If you suspect fraudulent activity, immediately change your password and enable 2FA. Then contact support so they can secure your account and investigate the issue."
+  },
+  {
+    "question": "Why is my balance different from expected?",
+    "keywords": [
+      "balance issue",
+      "incorrect balance"
+    ],
+    "answer": "Balance discrepancies may occur due to pending transactions, bonus wagering, or recent activity not yet processed. Check your transaction history for detailed breakdown."
+  },
+  {
+    "question": "Can I delete my account permanently?",
+    "keywords": [
+      "delete account",
+      "close account permanently"
+    ],
+    "answer": "Yes, account deletion requests must be submitted to support. Once processed, all data will be removed according to compliance and legal retention policies."
+  },
+  {
+    "question": "How do I contact live support quickly?",
+    "keywords": [
+      "live support",
+      "chat agent",
+      "help fast"
+    ],
+    "answer": "You can contact live support via the chat button available in your dashboard. Our agents are available 24/7 to assist with urgent issues and escalations."
+  },
+  {
+    "question": "What should I do if I don’t receive emails from the platform?",
+    "keywords": [
+      "email not received",
+      "no email",
+      "verification email"
+    ],
+    "answer": "If you are not receiving emails, check your spam or junk folder, ensure your inbox is not full, and whitelist our domain. If the issue continues, contact support for manual assistance."
+  }
 ]

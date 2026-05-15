@@ -109,7 +109,7 @@ window.onload = async () => {
 
   document.getElementById("sendBtn").addEventListener("click", sendMessage);
   document.getElementById("resetBtn").addEventListener("click", resetChat);
-  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("year").textContent = 2025;
 
   const input = document.getElementById("userInput");
 
